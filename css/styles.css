@@ -1,0 +1,234 @@
+
+:root {
+  --primary-text-color: rgb(3, 0, 0);
+  --title-text-color: rgb(0, 0, 0);
+  --accent-color: 2196f3;
+}
+/* основной текст  212121
+текст строк 757575
+шапка сайта белый ECECEC
+акцент 2196F3
+*/
+.h1 .h2 .h3 .h4 .p .ul {
+  margin: 0;
+  padding: 0;
+  }
+.body {
+  background-color: black;
+  color: var(--primary-text-color);
+}
+/*heder section*/
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 15px;
+  }
+.naime {
+  text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.text {
+ color: var(--title-text-color);
+ font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  }
+  .subtitle {
+    margin-top: 0px;
+    margin-bottom: 10;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    }
+    .portofolio-content {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: -30px;
+      margin-left: -30px;
+    }
+    .portofolio-content .item {
+      flex-basis: calc(100% / 3 - 30px);
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+.heder{
+  background: #0397c0;
+  border-bottom: 2px solid var(--header-border-color);
+}
+.list {
+  list-style: none;
+}
+.contact {
+  color: rgb(101, 111, 131);
+}
+.list .text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  }
+.site-nav,
+.link {
+  display: flex;
+  margin-left: 5px;
+  color: rgb(64, 113, 218);
+}
+.site-nav,
+.link:hover,
+.site-nav .link:focus {
+  color: rgb(74, 211, 253);
+  text-align: center;
+}
+/* site nav */
+.site-nav {
+  color: rgb(106, 112, 112);
+}
+.section {
+  display: flex;
+  color: rgb(73, 72, 77);
+}
+.section-titl {
+  color: rgb(0, 0, 0);
+}
+.naime {
+  color: var(--primary-text-color);
+}
+/* Выпадающее меню */
+.navigation {
+  margin-top: 30px;
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+ }
+ .dws-menu *{
+  margin: 10;
+  padding: 30;
+ }
+ .dws-menu ul,
+ .dws-menu ol{
+  list-style: none;
+ }
+ .dws-menu > ul{
+  display: flex;
+  justify-content: center;
+ }
+ .dws-menu > ul li{
+  position: relative;
+  border-right: 1px solid #c7c8ca;
+ }
+ .dws-menu > ul li:first-child{
+  border-left: 1px solid #b2b3b5;
+ }
+ .dws-menu > ul li:last-child{
+  border-right: 1px solid #babbbd;
+ }
+ .dws-menu > ul li > a i.fa{
+  position: absolute;
+  top: 15px;
+  left: 12px;
+  font-size: 16px;
+ }
+ .dws-menu > ul li a{
+  display: block;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9c9c9+0,f6f6f6+2,c4c5c7+98,757577+100;Custom+3 */
+  background: rgb(201,201,201); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(201,201,201,1) 0%, rgba(246,246,246,1) 2%, rgba(196,197,199,1) 98%, rgba(117,117,119,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577',GradientType=0 ); /* IE6-9 */
+  padding: 15px 30px 15px 40px;
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+  text-transform:uppercase;
+  transition: all 0.3s ease;
+ }
+ .dws-menu li a:hover{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0e1e5+0,454547+2,454547+98,e0e1e5+100 */
+  background: rgb(224,225,229); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(224,225,229,1) 0%, rgba(69,69,71,1) 2%, rgba(69,69,71,1) 98%, rgba(224,225,229,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(224,225,229,1) 0%,rgba(69,69,71,1) 2%,rgba(69,69,71,1) 98%,rgba(224,225,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(224,225,229,1) 0%,rgba(69,69,71,1) 2%,rgba(69,69,71,1) 98%,rgba(224,225,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e1e5', endColorstr='#e0e1e5',GradientType=0 ); /* IE6-9 */
+  color: #ffffff;
+  box-shadow: 1px 5px 10px -5px black;
+  transition: all 0.3s ease;
+ }   
+ /*sub menu*/
+ .dws-menu li ul{
+  position: absolute;
+  min-width: 150px;
+  display: none;
+ }
+ .dws-menu li > ul li{
+  border: 1px solid #c7c8ca;
+ }
+ .dws-menu li > ul li a{
+  padding: 10px;
+  text-transform: none;
+  background: #e4e4e5;
+ }
+ .dws-menu li > ul li ul{
+  position: absolute;
+  right: -150px;
+  top: 0;
+ }
+ .dws-menu li:hover > ul{
+  display: block;
+ }
+/*button*/
+.button {
+  background-color: rgb(12, 255, 4);
+  color: rgb(255, 21, 13);
+}
+
+.botton,
+.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-text-color);
+}
+
+.botton,
+.secodary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+/*main section*/
+ .main {
+  background: #f5f4fa;
+}
+/*footer section*/
+.footer
+{
+  background: #d9f5fd;
+  text-align: center;
+}
+
+.text-footer{
+  list-style-type: none;
+  text-align: center;
+}
+.tuor-cart {
+  flex-direction: column;
+  width: 1100px;
+  height: auto;
+  border-radius: 2px;
+  background-color: rgb(17, 231, 217);
+}
+.subtitle {
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+    line-height: 1.36
+  }
